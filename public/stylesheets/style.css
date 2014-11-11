@@ -1,0 +1,90 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
+
+body {
+	background-image: url('http://i19.photobucket.com/albums/b153/mr_e_machine/CircuitBoard3000x1988.jpg');
+/*	background-repeat: no-repeat; 
+  	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;*/
+  	background-size: 100%;
+	background-color: #000;
+	text-align: center;
+	font-family: 'Helvetica', sans-serif;
+	color: #FFF;
+}
+
+div.view {
+	margin-top: 0;
+	background-color: rgba(0, 0, 0, 0.75);
+	padding: 10px;
+	border-radius: 5px;
+}
+
+h1 {
+	font-family: 'Lato', sans-serif;
+	font-size: 40px;
+	font-weight: 900;
+	font-style: italic;
+	color: #000;
+	letter-spacing: 2px;
+  text-shadow:
+   -1px -1px 0 rgb(0, 255, 255),  
+   	1px -1px 0 rgb(0, 255, 255),
+   -1px 1px 0 rgb(0, 255, 255),
+    1px 1px 0 rgb(0, 255, 255),
+    -2px -2px 0 rgb(148, 21, 193),  
+   	2px -2px 0 rgb(148, 21, 193),
+   -2px 2px 0 rgb(148, 21, 193),
+    2px 2px 0 rgb(148, 21, 193);;
+}
+
+h3 {
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 1px;
+	color: rgb(0, 255, 255);
+}
+
+.navbar {
+	background-color: #000;
+	margin-bottom: 0;
+}
+
+.navbar-nav.center {
+	text-align: center;
+}
+
+.navbar-nav.center {
+    float: none;
+    display:inline-block;
+}
+
+a {
+	color: grey !important;
+}
+
+a:hover {
+	color: rgb(0, 255, 255) !important;
+}
+
+ul {
+	list-style: none;
+	margin-top: 0;
+}
+
+img.project {
+	width: 300px;
+}
+
+li {
+	margin: 0 0 50px 0;
+}
+
+.btn-primary {
+	background-color: purple;
+}
+
+.fa {
+	margin: 10px;
+}
