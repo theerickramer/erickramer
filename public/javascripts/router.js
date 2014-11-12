@@ -4,7 +4,8 @@ $(function(){
 		routes: {
 			'' : 'index',
 			'work' : 'work',
-			'contact' : 'contact'
+			'contact' : 'contact',
+			'cv' : 'cv'
 		}
 	});
 
@@ -20,6 +21,10 @@ $(function(){
 
 	router.on('route:contact', function(){
 		var contactView = new ContactView({el: $('main')});
+	});
+
+	router.on('route:cv', function(){
+		var cvView = new CvView({el: $('main')});
 	});
 
 	Backbone.history.start();
