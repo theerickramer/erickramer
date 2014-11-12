@@ -19,7 +19,7 @@ def email_me(name, email, subject, text)
   text: "From #{name}<#{email}>: #{text}"
   }
 
-  url = "https://api.mailgun.net/v2/erickramer.co/messages"
+  url = "https://api.mailgun.net/v2/sandbox57748f73abf5414d8ae9d14603c15b14.mailgun.org/messages"
   auth = {:username=>"api", :password=>"key-f2a898a08a5fcef31a6f2e5cecce779d"}
 
   HTTParty.post(url, {body: email_info, basic_auth: auth})
