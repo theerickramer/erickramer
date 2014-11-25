@@ -22,6 +22,11 @@ div.view {
 	border-radius: 5px;
 }
 
+img.me {
+	height: 150px;
+	margin-bottom: 20px;
+}
+
 h1 {
 	font-family: 'Lato', sans-serif;
 	font-size: 40px;
