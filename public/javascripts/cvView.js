@@ -1,5 +1,5 @@
 var CvView = Backbone.View.extend({
-	template: _.template($('#cv').html() ),
+	template: _.template(cvTemplate),
 
 	initialize: function(){
 		this.render();

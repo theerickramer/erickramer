@@ -1,5 +1,5 @@
 var WorkView = Backbone.View.extend({
-	template: _.template($('#work').html() ),
+	template: _.template(workTemplate),
 
 	initialize: function(){
 		this.render();

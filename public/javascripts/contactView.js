@@ -1,5 +1,5 @@
 var ContactView = Backbone.View.extend({
-	template: _.template($('#contact').html() ),
+	template: _.template(contactTemplate),
 
 	initialize: function(){
 		this.render();
