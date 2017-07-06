@@ -1,1 +1,1 @@
-var cvTemplate = '<div class="view"><embed src="cv/Eric_Kramer_Resume.pdf"></div>'
+var cvTemplate = '<div class="view"><embed src="cv/Eric_Kramer_Web_Dev_Resume.pdf"></div>'
