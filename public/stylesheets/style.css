@@ -66,11 +66,11 @@ h3 {
 }
 
 a {
-	color: grey !important;
+	color: rgb(0, 255, 255) !important;
 }
 
 a:hover {
-	color: rgb(0, 255, 255) !important;
+	color: rgb(148, 21, 193)!important;
 }
 
 ul {
